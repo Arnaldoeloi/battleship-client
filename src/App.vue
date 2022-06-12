@@ -178,7 +178,7 @@ export default {
       this.ws.emit('dropBomb',{'posX':posX,'posY':posY});
     },
     connectToServer: function(){
-      this.ws = new WebSocket(`ws://localhost:8081/username=${this.username}&server=${this.serverCode}`);
+      this.ws = new WebSocket(`ws://${window.location.hostname}:8081/username=${this.username}&server=${this.serverCode}`);
 
       this.ws.addEventListener('message', (data) => {
         console.log('Msg received', data.data);
