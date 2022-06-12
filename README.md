@@ -2,10 +2,10 @@
 
 
 
-Client made to run together with [battleship client in VueJS3.](https://github.com/Arnaldoeloi/battleship-client).
+Client made to run together with [battleship client in VueJS3.](https://github.com/Arnaldoeloi/battleship-server).
 
 
-![alt_text](https://raw.githubusercontent.com/Arnaldoeloi/battleship-server/main/app_preview.jpg?raw=true)
+![alt_text](https://raw.githubusercontent.com/Arnaldoeloi/battleship-client/main/app_preview.jpg?raw=true)
 
 
 
